@@ -2,7 +2,7 @@
 FROM node:14-alpine
 
 # Set working directory in the container
-WORKDIR /Front-end/react-library
+WORKDIR Front-end/react-library
 
 # Copy package.json and package-lock.json if available
 COPY package*.json ./
